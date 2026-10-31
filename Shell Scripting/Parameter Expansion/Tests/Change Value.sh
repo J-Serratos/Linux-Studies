@@ -16,7 +16,11 @@ echo $?
 
 echo "Hello, ${name:=Carlos}"
 
+echo $?
+
 echo "Hello, ${name}"
+
+echo $?
 
 # You can change it by doing this
 

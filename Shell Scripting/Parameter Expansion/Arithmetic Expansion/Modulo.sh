@@ -10,6 +10,8 @@ echo ${?}
 
 echo "Second Value: ${2}"
 
+echo ${?}
+
 echo "Modulo: ${1} % ${2} = $((${1} % ${2}))"
 
 echo ${?}
