@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sentence="We have got three cats, each is different colour. Have you got one? What colour are they?"
+sentence="We have got three cats, each is different colour. Have you got one? What colour are they!"
 
 echo "Original Sentence: ${sentence}"
 

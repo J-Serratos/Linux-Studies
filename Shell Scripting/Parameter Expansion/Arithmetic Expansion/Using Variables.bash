@@ -22,20 +22,20 @@ echo ${?}
 
 # No Quotes
 
-not_quoted_count=100
+unquoted_count=100
 
-echo "Original Unquoted Value: ${not_quoted_count}"
-
-echo ${?}
-
-((not_quoted_count += 50))
-
-echo "New Value - Version 1: ${not_quoted_count}"
+echo "Original Unquoted Value: ${unquoted_count}"
 
 echo ${?}
 
-not_quoted_count=$((not_quoted_count + "50"))
+((unquoted_count += 50))
 
-echo "New Value - Version 2: ${not_quoted_count}"
+echo "New Value - Version 1: ${unquoted_count}"
+
+echo ${?}
+
+unquoted_count=$((unquoted_count + "50"))
+
+echo "New Value - Version 2: ${unquoted_count}"
 
 echo ${?}

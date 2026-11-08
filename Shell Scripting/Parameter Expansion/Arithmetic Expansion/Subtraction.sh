@@ -1,6 +1,6 @@
 #!/bin/sh
 
-echo "Executed Path's File: ${0}"
+echo "Executed Scripts's Path: ${0}"
 
 echo ${?}
 
